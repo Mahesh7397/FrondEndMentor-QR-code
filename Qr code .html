@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontendmentor Qr code</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        
+        @import url("C:\Users\user\Desktop\Qr code project\Outfit.zip");
+        :root{
+            --White: hsl(0, 0%, 100%);
+            --Light_gray: hsl(212, 45%, 89%);
+            --Grayish_blue: hsl(220, 15%, 55%);
+            --Dark_blue: hsl(218, 44%, 22%);
+            --Family: 'Outfit', sans-serif;
+            --Weights: 700;
+            --Font_size: 15px;
+        }
+        
+        body{
+            height: 600px;
+            background-color: var(--Light_gray);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .box{
+            height: 400px;
+            width: 250px;
+            border: 1px solid var(--Light_gray);
+            border-radius: 15px;
+            text-align: center;
+            background-color: var(--White);
+        }
+        
+        .imag{
+            height: 222px;
+            width: 222px;
+            position:relative;
+            top: 10px;
+            border-radius: 10px;
+        }
+
+        .rr{
+            position: absolute;
+            bottom: 0;
+        }
+
+       h2{
+          font-weight: 400;
+          font-family:var(--Family) ;
+          padding: 20px;
+          font-size: var(--Font_size);
+       }
+
+       .para{
+        color: var(--Grayish_blue);
+        font-style: var(--Family);
+        font-family: var(--Family);
+        padding: 10px;
+        font-size: 15px;
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="image-qr-code.png" alt="Qr code" class="imag">
+        <p><h2>Improve your front-end skills by building project</h2></p>
+        <p class="para"> scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+</body>
+</html>
